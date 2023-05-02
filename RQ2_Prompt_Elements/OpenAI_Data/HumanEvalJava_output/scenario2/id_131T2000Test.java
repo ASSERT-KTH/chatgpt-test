@@ -1,0 +1,132 @@
+// DigitsTest.java
+package scenario2;
+
+
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
+
+/**
+* Test class of {@link Digits}.
+* It contains ten unit test cases for the {@link Digits#digits(int)} method.
+*/
+class DigitsTest {
+
+	@Test
+	void testDigits() {
+		assertEquals(0, Digits.digits(0));
+		assertEquals(0, Digits.digits(2));
+		assertEquals(0, Digits.digits(4));
+		assertEquals(0, Digits.digits(6));
+		assertEquals(0, Digits.digits(8));
+		assertEquals(1, Digits.digits(1));
+		assertEquals(1, Digits.digits(3));
+		assertEquals(1, Digits.digits(5));
+		assertEquals(1, Digits.digits(7));
+		assertEquals(1, Digits.digits(9));
+		assertEquals(0, Digits.digits(10));
+		assertEquals(0, Digits.digits(12));
+		assertEquals(0, Digits.digits(14));
+		assertEquals(0, Digits.digits(16));
+		assertEquals(0, Digits.digits(18));
+		assertEquals(1, Digits.digits(11));
+		assertEquals(1, Digits.digits(13));
+		assertEquals(1, Digits.digits(15));
+		assertEquals(1, Digits.digits(17));
+		assertEquals(1, Digits.digits(19));
+		assertEquals(0, Digits.digits(20));
+		assertEquals(0, Digits.digits(22));
+		assertEquals(0, Digits.digits(24));
+		assertEquals(0, Digits.digits(26));
+		assertEquals(0, Digits.digits(28));
+		assertEquals(1, Digits.digits(21));
+		assertEquals(1, Digits.digits(23));
+		assertEquals(1, Digits.digits(25));
+		assertEquals(1, Digits.digits(27));
+		assertEquals(1, Digits.digits(29));
+		assertEquals(0, Digits.digits(30));
+		assertEquals(0, Digits.digits(32));
+		assertEquals(0, Digits.digits(34));
+		assertEquals(0, Digits.digits(36));
+		assertEquals(0, Digits.digits(38));
+		assertEquals(1, Digits.digits(31));
+		assertEquals(1, Digits.digits(33));
+		assertEquals(1, Digits.digits(35));
+		assertEquals(1, Digits.digits(37));
+		assertEquals(1, Digits.digits(39));
+		assertEquals(0, Digits.digits(40));
+		assertEquals(0, Digits.digits(42));
+		assertEquals(0, Digits.digits(44));
+		assertEquals(0, Digits.digits(46));
+		assertEquals(0, Digits.digits(48));
+		assertEquals(1, Digits.digits(41));
+		assertEquals(1, Digits.digits(43));
+		assertEquals(1, Digits.digits(45));
+		assertEquals(1, Digits.digits(47));
+		assertEquals(1, Digits.digits(49));
+		assertEquals(0, Digits.digits(50));
+		assertEquals(0, Digits.digits(52));
+		assertEquals(0, Digits.digits(54));
+		assertEquals(0, Digits.digits(56));
+		assertEquals(0, Digits.digits(58));
+		assertEquals(1, Digits.digits(51));
+		assertEquals(1, Digits.digits(53));
+		assertEquals(1, Digits.digits(55));
+		assertEquals(1, Digits.digits(57));
+		assertEquals(1, Digits.digits(59));
+		assertEquals(0, Digits.digits(60));
+		assertEquals(0, Digits.digits(62));
+		assertEquals(0, Digits.digits(64));
+		assertEquals(0, Digits.digits(66));
+		assertEquals(0, Digits.digits(68));
+		assertEquals(1, Digits.digits(61));
+		assertEquals(1, Digits.digits(63));
+		assertEquals(1, Digits.digits(65));
+		assertEquals(1, Digits.digits(67));
+		assertEquals(1, Digits.digits(69));
+		assertEquals(0, Digits.digits(70));
+		assertEquals(0, Digits.digits(72));
+		assertEquals(0, Digits.digits(74));
+		assertEquals(0, Digits.digits(76));
+		assertEquals(0, Digits.digits(78));
+		assertEquals(1, Digits.digits(71));
+		assertEquals(1, Digits.digits(73));
+		assertEquals(1, Digits.digits(75));
+		assertEquals(1, Digits.digits(77));
+		assertEquals(1, Digits.digits(79));
+		assertEquals(0, Digits.digits(80));
+		assertEquals(0, Digits.digits(82));
+		assertEquals(0, Digits.digits(84));
+		assertEquals(0, Digits.digits(86));
+		assertEquals(0, Digits.digits(88));
+		assertEquals(1, Digits.digits(81));
+		assertEquals(1, Digits.digits(83));
+		assertEquals(1, Digits.digits(85));
+		assertEquals(1, Digits.digits(87));
+		assertEquals(1, Digits.digits(89));
+		assertEquals(0, Digits.digits(90));
+		assertEquals(0, Digits.digits(92));
+		assertEquals(0, Digits.digits(94));
+		assertEquals(0, Digits.digits(96));
+		assertEquals(0, Digits.digits(98));
+		assertEquals(1, Digits.digits(91));
+		assertEquals(1, Digits.digits(93));
+		assertEquals(1, Digits.digits(95));
+		assertEquals(1, Digits.digits(97));
+		assertEquals(1, Digits.digits(99));
+		assertEquals(0, Digits.digits(100));
+		assertEquals(0, Digits.digits(102));
+		assertEquals(0, Digits.digits(104));
+		assertEquals(0, Digits.digits(106));
+		assertEquals(0, Digits.digits(108));
+		assertEquals(1, Digits.digits(101));
+		assertEquals(1, Digits.digits(103));
+		assertEquals(1, Digits.digits(105));
+		assertEquals(1, Digits.digits(107));
+		assertEquals(1, Digits.digits(109));
+		assertEquals(0, Digits.digits(110));
+		assertEquals(0, Digits.digits(112));
+		assertEquals(0, Digits.digits(114));
+		assertEquals(0, Digits.digits(116));
+		assertEquals(0, Digits.digits(118));
+		assertEquals(1, Digits.digits(111));
+		assertEquals(1, Digits.digits(113
